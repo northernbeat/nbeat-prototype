@@ -1,0 +1,7 @@
+@mixin debug()
+{
+    @if $debug == true {
+        background-image: url("/img/diagonal.png");
+        background-repeat: repeat;
+    }
+}

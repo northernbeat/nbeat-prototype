@@ -1,0 +1,21 @@
+{
+    "build": {
+        "dest": "build/"
+    },
+    "metalsmith": {
+        "src":       "pages/**/*",
+        "engine":    "swig",
+        "templates": "src/html"
+    },
+    "sass": {
+        "src":  "src/scss/*.scss",
+        "dest": "css/",
+        "opts": {
+            "includePaths": ["./node_modules",
+                             "/Users/eirik.refsdal/github/other/bootstrap/scss"],
+            "sourceMap": true,
+            "omitSourceMapUrl": true,
+            "outFile": "./build/css/site.map"
+        }
+    }
+}

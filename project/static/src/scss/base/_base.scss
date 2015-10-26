@@ -1,0 +1,11 @@
+h1 {
+    font-size: $font-size-h1;
+}
+
+a {
+    color: $link-color;
+
+    &:hover {
+        color: $link-color;
+    }
+}
