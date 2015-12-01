@@ -1,0 +1,16 @@
+@function color($key, $op: "") {
+    @if $op != "" {
+        $c: map-get($colors, $key);
+        $r: red($c);
+        $g: green($c);
+        $b: blue($c);
+
+        $new-r: round(($op * $r) + ((1 - $op) * 255));
+        $new-g: round(($op * $g) + ((1 - $op) * 255));
+        $new-b: round(($op * $b) + ((1 - $op) * 255));
+
+        @return rgb($new-r, $new-g, $new-b);
+    } @else {
+        @return map-get($colors, $key);
+    }
+}
