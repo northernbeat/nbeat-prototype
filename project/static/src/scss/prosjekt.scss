@@ -1,18 +1,10 @@
 @import "data";
-@import "mixins/color";
-
+@import "nbeat/mixins";
 @import "config";
-@import "bootstrap";
+@import "bootstrap-wrapper";
 
 // Mixins
-@import "mixins/color";
-@import "mixins/debug";
-@import "mixins/flexbox";
-@import "mixins/hyphenation";
-@import "mixins/keyframes";
-@import "mixins/list-item";
-@import "mixins/scale";
-@import "mixins/transitions";
+// @import "mixins/projectmixin";
 
 // Base
 @import "base/base";
