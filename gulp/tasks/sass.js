@@ -13,6 +13,8 @@ module.exports = function(gulp, plugins, config)
             .pipe(plugins.sass(config.sass.opts)
                   .on("error", plugins.sass.logError))
             // .pipe(plugins.sourcemaps.write())
+            .pipe(gulp.dest(dest))
+            .pipe(plugins.debug({title: "Sass, output:"}))
             .pipe(plugins.minifyCss())
             .pipe(plugins.rename(function(path) {
                 path.basename += ".min";
