@@ -12,10 +12,6 @@ module.exports = function(gulp, plugins, config)
                     plugins.metalsmithLayouts({
                         engine:    config.metalsmith.engine,
                         directory: config.metalsmith.templates
-                    }),
-                    plugins.metalsmithInPlace({
-                        engine:    config.metalsmith.engine,
-                        directory: config.metalsmith.templates
                     })
                 ]
             }))

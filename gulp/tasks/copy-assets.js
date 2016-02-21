@@ -5,7 +5,7 @@ module.exports = function(gulp, plugins, config)
         // Images
         if (config.assets.images.src instanceof Array) {
             config.assets.images.src.forEach(function(imgSrc) {
-                gulp.src(imgSrc)
+                return gulp.src(imgSrc)
                     .pipe(gulp.dest(config.main.dest + config.assets.images.dest))
                     .pipe(plugins.debug({title: "Asset, image:"}))
             });
@@ -14,7 +14,7 @@ module.exports = function(gulp, plugins, config)
         // Fonts
         if (config.assets.fonts.src instanceof Array) {
             config.assets.fonts.src.forEach(function(fontSrc) {
-                gulp.src(fontSrc)
+                return gulp.src(fontSrc)
                     .pipe(gulp.dest(config.main.dest + config.assets.fonts.dest))
                     .pipe(plugins.debug({title: "Asset, font:"}))
             });
@@ -23,7 +23,7 @@ module.exports = function(gulp, plugins, config)
         // External, preprocessed CSS
         if (config.assets.css.src instanceof Array) {
             config.assets.css.src.forEach(function(cssSrc) {
-                gulp.src(cssSrc)
+                return gulp.src(cssSrc)
                     .pipe(gulp.dest(config.main.dest + config.assets.css.dest))
                     .pipe(plugins.debug({title: "Asset, CSS:"}))
             });
@@ -32,7 +32,7 @@ module.exports = function(gulp, plugins, config)
         // JavaScript
         if (config.assets.js.src instanceof Array) {
             config.assets.js.src.forEach(function(jsSrc) {
-                gulp.src(jsSrc)
+                return gulp.src(jsSrc)
                     .pipe(gulp.dest(config.main.dest + config.assets.js.dest))
                     .pipe(plugins.debug({title: "Asset, JS:"}))
             });
@@ -41,10 +41,21 @@ module.exports = function(gulp, plugins, config)
         // Favicon
         if (config.assets.favicon.src instanceof Array) {
             config.assets.favicon.src.forEach(function(faviconSrc) {
-                gulp.src(faviconSrc)
+                return gulp.src(faviconSrc)
                     .pipe(gulp.dest(config.main.dest + config.assets.favicon.dest))
                     .pipe(plugins.debug({title: "Asset, Favicon:"}))
             });
         }
+
+
+        // // Saved-as assets
+        // if (config.assets.savedAs.src instanceof Array) {
+        //     config.assets.savedAs.src.forEach(function(saSrc) {
+        //         return gulp.src(saSrc)
+        //             .pipe(gulp.dest(config.main.dest + config.assets.savedAs.dest))
+        //             .pipe(plugins.debug({title: "Asset, SavedAs:"}))
+        //     });
+        // }
+
     };
 };

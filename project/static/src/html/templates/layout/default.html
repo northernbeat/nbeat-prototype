@@ -1,0 +1,61 @@
+<!doctype html>
+<html lang="no">
+  <head prefix="og: http://ogp.me/ns#">
+    {% block head %}
+    <meta charset="utf-8" />
+    <meta http-equiv="x-ua-compatible" content="ie=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <link rel="stylesheet" media="all" href="/css/larvik.min.css" />
+    
+    <title>{{title}}</title>
+
+    <link rel="apple-touch-icon" sizes="57x57" href="/apple-touch-icon-57x57.png?v=PYYaKro79P" />
+    <link rel="apple-touch-icon" sizes="60x60" href="/apple-touch-icon-60x60.png?v=PYYaKro79P" />
+    <link rel="apple-touch-icon" sizes="72x72" href="/apple-touch-icon-72x72.png?v=PYYaKro79P" />
+    <link rel="apple-touch-icon" sizes="76x76" href="/apple-touch-icon-76x76.png?v=PYYaKro79P" />
+    <link rel="apple-touch-icon" sizes="114x114" href="/apple-touch-icon-114x114.png?v=PYYaKro79P" />
+    <link rel="apple-touch-icon" sizes="120x120" href="/apple-touch-icon-120x120.png?v=PYYaKro79P" />
+    <link rel="apple-touch-icon" sizes="144x144" href="/apple-touch-icon-144x144.png?v=PYYaKro79P" />
+    <link rel="apple-touch-icon" sizes="152x152" href="/apple-touch-icon-152x152.png?v=PYYaKro79P" />
+    <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon-180x180.png?v=PYYaKro79P" />
+    <link rel="icon" type="image/png" href="/favicon-32x32.png?v=PYYaKro79P" sizes="32x32" />
+    <link rel="icon" type="image/png" href="/android-chrome-192x192.png?v=PYYaKro79P" sizes="192x192" />
+    <link rel="icon" type="image/png" href="/favicon-96x96.png?v=PYYaKro79P" sizes="96x96" />
+    <link rel="icon" type="image/png" href="/favicon-16x16.png?v=PYYaKro79P" sizes="16x16" />
+    <link rel="manifest" href="/manifest.json?v=PYYaKro79P" />
+    <link rel="mask-icon" href="/safari-pinned-tab.svg?v=PYYaKro79P" color="#33b9b1" />
+    <link rel="shortcut icon" href="/favicon.ico?v=PYYaKro79P" />
+    <meta name="msapplication-TileColor" content="#33b9b1" />
+    <meta name="msapplication-TileImage" content="/mstile-144x144.png?v=PYYaKro79P" />
+    <meta name="theme-color" content="#33b9b1" />
+
+    {% endblock %}
+  </head>
+
+  <body>
+    <div id="a11y-nav"></div>
+    {% block header %}
+    {% include "header.html" %}
+    {% endblock %}
+
+    <div class="bd">
+      {% block content %}
+      Innhold
+      {% endblock %}
+    </div>
+
+    {% block footer %}
+    {% include "footer.html" %}
+    {% endblock %}
+
+    <script type="text/javascript" src="/js/jquery.min.js"></script>
+    <script type="text/javascript" src="/js/bootstrap.min.js"></script>
+    <script type="text/javascript" src="/js/jquery-scrolltofixed-min.js"></script>
+    <script type="text/javascript" src="/js/jquery.a11y-jump-menu.js"></script>
+    <script type="text/javascript" src="/js/isotope.pkgd.min.js"></script>
+    <script type="text/javascript" src="/js/packery-mode.pkgd.min.js"></script>
+    <script type="text/javascript" src="/js/instafeed.min.js"></script>
+    <script type="text/javascript" src="/js/larvik.js"></script>
+  </body>
+</html>

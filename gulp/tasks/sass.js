@@ -15,7 +15,8 @@ module.exports = function(gulp, plugins, config)
             // .pipe(plugins.sourcemaps.write())
             .pipe(gulp.dest(dest))
             .pipe(plugins.debug({title: "Sass, output:"}))
-            .pipe(plugins.minifyCss())
+            .pipe(plugins.shorthand())
+            .pipe(plugins.cssnano())
             .pipe(plugins.rename(function(path) {
                 path.basename += ".min";
             }))

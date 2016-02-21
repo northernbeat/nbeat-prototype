@@ -65,8 +65,9 @@
 @mixin _list-item-single($_margin)
 {
     width: 100%;
-    @include scale("margin-top", $_margin);
+    // @include scale("margin-top", $_margin);
     overflow: hidden;
+    margin-top: $_margin;
 }
 
 @mixin _list-item-half()
