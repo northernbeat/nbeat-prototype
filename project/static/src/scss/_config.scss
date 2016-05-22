@@ -12,23 +12,23 @@ $enable-flex: false;
 
 // Fonts
 $font-family-sans-serif: "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
-$font-size-root: 24px;
+$font-size-root: 20px;
 
-// Containers and grid
-$grid-breakpoints: (
-    xs: 0,
-    sm: 544px,
-    md: 768px,
-    lg: 992px,
-    xl: 1200px
-);
+// // Containers and grid
+// $grid-breakpoints: (
+//     xs: 0,
+//     sm: 544px,
+//     md: 768px,
+//     lg: 992px,
+//     xl: 1200px
+// );
 
-$container-max-widths: (
-    sm: 576px,
-    md: 720px,
-    lg: 940px,
-    xl: 1440px
-);
+// $container-max-widths: (
+//     sm: 576px,
+//     md: 720px,
+//     lg: 940px,
+//     xl: 1440px
+// );
 
 $html-color: color(white);
 $body-color: color(gray);

@@ -1,6 +1,6 @@
 {
     "main": {
-        "base": "/Users/eirik.refsdal/prototype",
+        "base": "/Users/eirikref/projects/prototype",
         "dest": "build"
     },
 
@@ -25,8 +25,8 @@
         "dest": "/css",
         "opts": {
             "includePaths": ["./node_modules",
-                             "/Users/eirik.refsdal/github/other/bootstrap/scss"],
-            "sourceMap": true,
+                             "/Users/eirikref/github/other/bootstrap/scss"],
+            "Sourcemap": true,
             "omitSourceMapUrl": true,
             "outFile": "./build/css/site.map"
         }

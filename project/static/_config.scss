@@ -1,0 +1,56 @@
+// Switches
+$debug: false;
+$debugbp: false;
+
+// Hover effects
+$hover-default: scale(1);
+$hover-effect: scale(1.03);
+$hover-transition: 1s ease;
+$hover-out-transition: 1s ease;
+$alt-hover-default: brightness(100%);
+$alt-hover-effect: brightness(85%);
+$alt-hover-transition: 0.5s ease;
+$alt-hover-out-transition: 0.5s ease-in-out;
+
+// Header
+$header-link-color: color(black);
+$header-underline-color: color(red);
+
+// List
+$list-item-margin-vertical: 1rem;
+$list-grid-spacing: 1rem;
+$list-grid-spacing-half: 0.5rem;
+$list-divider: 1px solid color(gray-tint-80);
+
+// List item
+$item-xs-minheight: 3rem;
+$item-sm-minheight: 5rem;
+$item-md-minheight: 8rem;
+$item-lg-minheight: 16rem;
+$item-xl-minheight: 21rem;
+
+$item-xs-header: $font-size-base;
+$item-sm-header: $font-size-base;
+$item-md-header: $font-size-lg;
+$item-lg-header: $font-size-lg;
+$item-xl-header: (1.1 * $font-size-lg);
+
+$item-sm-tag: 0.6rem;
+$item-lg-tag: $font-size-sm;
+
+// Article
+$article-section-margin: 2.6rem;
+$section-spacing: 2.6rem;
+$section-spacing-half: 1.3rem;
+
+// Background color classes (.bg-n)
+$bg-default-fg: color(black);
+$bg-alt-fg: color(cyan-tint-80);
+
+// Factbox
+$factbox-bg: color(cyan-tint-90);
+$factbox-table-border: color(cyan-tint-80);
+$factbox-table-hover: color(cyan-tint-80);
+
+// Footer
+$footer-bg: color(cyan-shade-40);

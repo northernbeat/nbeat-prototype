@@ -1,0 +1,52 @@
+.nbeat-project {
+    background-color: #f7f7f7;
+
+    body {
+        background-color: #f7f7f7;
+        padding-bottom: 2rem;
+    }
+
+    .bd-pageheader {
+        background-color: blue;
+        color: white;
+        padding: 2rem 0;
+        margin-bottom: 2rem;
+        overflow: hidden;
+        position: relative;
+
+        &:after {
+            @include media-breakpoint-up(md) {
+                // background-image: url("//www.northernbeat.no/nbeat-half.svg");
+                background-position: right center;
+                background-repeat: no-repeat;
+                opacity: 0.5;
+                content: " ";
+                position: absolute;
+                top: 0;
+                left: 0;
+                right: 0;
+                bottom: 0;
+                background-size: 10rem;
+            }
+        }
+
+        h1 {
+            display: inline-block;
+        }
+        
+        h1, .lead {
+            background-color: blue;
+            padding: 0.5rem;
+        }
+
+        .lead {
+            line-height: 1.2;
+            font-size: $font-size-base;
+
+            @include media-breakpoint-up(md) {
+                width: 67%;
+                font-size: $font-size-lg;
+            }
+        }
+    }
+}

@@ -1,10 +1,8 @@
-@import "data";
+@import "colors";
 @import "nbeat/mixins";
-@import "config";
+@import "config-bootstrap";
 @import "bootstrap-wrapper";
-
-// Mixins
-// @import "mixins/projectmixin";
+@import "config";
 
 // Base
 @import "base/base";
@@ -12,12 +10,11 @@
 @import "base/typography";
 
 // Layout
-@import "layout/header";
+@import "layout/bd";
 @import "layout/footer";
+@import "layout/header";
+@import "layout/page";
 
 // Modules
 @import "nbeat/modules/debug";
 @import "nbeat/modules/list";
-
-// State
-@import "state/header";
