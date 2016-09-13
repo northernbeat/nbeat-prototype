@@ -1,0 +1,24 @@
+.page {
+    margin-top: $ui-spacing-lg;
+    margin-bottom: $ui-spacing-lg;
+    
+    .section + .section, .row + .row {
+        @include scale("margin-top", $ui-section-spacing, "sm");
+    }
+
+    .section {
+        .subsection + .subsection {
+            @include scale("margin-top", $ui-subsection-spacing, "sm");
+        }
+    }
+    
+    aside {
+        @include media-breakpoint-down($ui-bp-down) {
+            margin-top: $ui-article-spacing;
+        }
+        
+        > * + * {
+            @include scale("margin-top", $ui-article-spacing, "sm");
+        }
+    }
+}

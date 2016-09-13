@@ -1,0 +1,77 @@
+{
+    "build": {
+        "dest": "build"
+    },
+
+    "nbeat": {
+        "gulp": "./node_modules/@eirikref/nbeat-gulp-tasks/tasks"
+    },
+    
+    "gulp": {
+        "loadPlugins": {
+            "pattern": ["gulp-*",
+                        "gulp.",
+                        "debug",
+                        "del",
+                        "nano",
+                        "metalsmith-*"]
+        }
+    },
+
+    "metalsmith": {
+        "engine":    "swig",
+        "src":       "src/html/pages/**/*",
+        "templates": "src/html/templates",
+        "metadata": {
+            "config": {
+                "isExternalSrc": true
+            },
+            "files": {
+                "cdata": "./var/coursedata.json",
+                "global": "./var/global.json"
+            }
+        }
+    },
+    "sass": {
+        "src":  "src/scss/*.scss",
+        "dest": "/css",
+        "opts": {
+            "includePaths": ["./node_modules",
+                             "/Users/eirikref/github/other/bootstrap/scss",
+                             "/Users/eirikref/projects/nbeat-sass/scss"
+                            ],
+            "Sourcemap": true,
+            "omitSourceMapUrl": true,
+            "outFile": "./build/css/site.map"
+        }
+    },
+    "assets": {
+        "images": {
+            "dest": "/img",
+            "src": ["src/img/**/*",
+                    "node_modules/@eirikref/nbeat-icons/src/*.svg"
+                   ]
+        },
+        "fonts": {
+            "dest": "/fonts",
+            "src": ["src/fonts/**/*"]
+        },
+        "css": {
+            "dest": "/css",
+            "src": []
+        },
+        "favicon": {
+            "dest": "/",
+            "src": ["src/favicon/**/*"]
+        },
+        "js": {
+            "dest": "/js",
+            "src": ["src/js/**/*",
+                    "node_modules/jquery/dist/jquery.min.js",
+                    "/Users/eirikref/github/other/bootstrap/dist/js/bootstrap.min.js",
+                    "node_modules/@eirikref/nbeat-js/dist/js/nbeat*.js",
+                    "node_modules/tether/dist/js/tether.min.js"
+                   ]
+        }
+    }
+}

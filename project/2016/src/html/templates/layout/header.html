@@ -1,0 +1,50 @@
+<header id="header">
+  <div class="container">
+    
+    <ul class="lang-selector">
+      <li><a class="selected" href="#">no</a></li>
+      <li><a href="#">en</a></li>
+    </ul>
+    
+    <div class="menu nbeatmenu">
+      <div class="menu-bar">
+        <img class="logo" src="/img/logo-glasspaper-white.svg" alt="Logo, Glasspaper" />
+        <a class="menu-button hamburger" id="hamburger">
+          <img src="/img/icon-hamburger-white.svg" alt="Ikon, meny" />
+        </a>
+      </div>
+
+      <div class="menu-data">
+        <ul>
+          <li class="menu-item"><a href="#learning">Learning</a></li>
+          <li class="menu-item"><a href="#people">People</a></li>
+          <li class="menu-item"><a href="om.html">Om oss</a></li>
+
+          <li id="menusearch" class="menu-item menu-search nbeatsearchbar" tabindex="0">
+	        <form method="post">
+              <label class="menu-search-label" for="mq">Søk</label>
+		      <input class="menu-search-input" placeholder="Søk" type="search" value="" name="mq" id="mq">
+		      <input class="menu-search-submit" type="submit" value="Søk">
+	        </form>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </div>
+
+  {% if crumbs %}
+  <div class="breadcrumbs">
+    <div class="container">
+      <ul class="list-breadcrumbs">
+        {% for url, name in crumbs %}
+          {% if loop.last %}
+            <li>{{name}}</li>
+          {% else %}
+            <li><a href="{{url}}">{{name}}</a></li>
+          {% endif %}
+        {% endfor %}
+      </ul>
+    </div>
+  </div>
+  {% endif %}
+</header>

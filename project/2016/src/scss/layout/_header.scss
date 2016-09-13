@@ -1,0 +1,18 @@
+header#header {
+    background-color: $brand-primary;
+
+    > .container {
+        position: relative;
+    }
+    
+    .menu {
+        padding: $ui-spacing-md 0;
+        @include flexbox();
+        @include justify-content(space-between);
+        @include align-items(center);
+    }
+
+    .breadcrumbs {
+        background-color: color(white);
+    }
+}

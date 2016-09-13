@@ -1,0 +1,59 @@
+h1 {
+    @include scale("font-size", $font-size-h1, "sm");
+    color: color(red);
+    font-weight: normal;
+}
+
+h2 {
+    @include scale("font-size", $font-size-h2, "sm");
+    color: color(red);
+    font-weight: normal;
+    letter-spacing: 0.03rem;
+}
+
+h3 {
+    @include scale("font-size", $font-size-h3, "sm");
+    letter-spacing: 0.03rem;
+    font-weight: bold;
+}
+
+h4 {
+    @include scale("font-size", $font-size-h4, "xs");
+}
+
+h5 {
+    @include scale("font-size", $font-size-h5, "xs");
+}
+
+h6 {
+    @include scale("font-size", $font-size-h6, "xs");
+}
+
+h1, h2, h3, h4, h5, h6 {
+    &.underline-70 {
+        &:after {
+            content: "";
+            display: block;
+            margin: 0 auto;
+            padding-bottom: 0.5rem;
+            left: 15%;
+            width: 70%;
+            border-bottom: 1px solid color(cyan);
+        }
+    }
+
+    &.module {
+        border: 0;
+        padding: 0;
+        margin-bottom: $ui-spacing-sm;
+        border-bottom: 2px solid color(cyan);
+        padding-bottom: 0.5rem;
+        color: color(black);
+        text-transform: uppercase;
+        font-size: $font-size-base;
+        font-weight: bold;
+        font-family: $font-family-sans-serif;
+        color: color(black);
+        text-transform: uppercase;
+    }
+}

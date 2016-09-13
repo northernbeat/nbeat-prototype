@@ -1,0 +1,181 @@
+{
+    "pages": [
+        { "title": "Forside",
+          "url": "/forside.html",
+          "status": "100"
+        },
+        { "title": "Kurs",
+          "url": "/kurs.html",
+          "status": "100"
+        },
+        { "title": "Skjema",
+          "url": "/skjema.html",
+          "status": "100"
+        },
+        { "title": "Liste",
+          "url": "/liste.html",
+          "status": "100"
+        },
+        { "title": "Kontakt oss",
+          "url": "/kontaktoss.html",
+          "status": "100"
+        },
+        { "title": "Artikkel, moduler",
+          "url": "/moduler.html",
+          "status": "100"
+        },
+        { "title": "Nyheter",
+          "url": "/nyheter.html",
+          "status": "100"
+        },
+        { "title": "Søkeresultat",
+          "url": "/sok.html",
+          "status": "100"
+        },
+        { "title": "Ledige stillinger",
+          "url": "/stillinger.html",
+          "status": "100"
+        },
+        { "title": "Stillingsannonse",
+          "url": "/annonse.html",
+          "status": "100"
+        }
+    ],
+    "people": [
+        { "title": "Rekruttering",
+          "icon": "icon-recruitment.svg",
+          "text": "Glasspaper er spesialisert på rekruttering av ledere, IT-stillinger, økonomi / finans og administrasjon. Våre rådgivere er spesialisert på sine områder for å gi din bedrift trygghet i leveransen. Vi kan som eneste aktør i markedet tilby kompetanseheving som en del av rekrutteringsprosessen uten ekstra kostnader for våre kunder.",
+          "linktext": "Les mer om vår rekrutteringsprosess"
+        },
+        { "title": "Bemanning",
+          "icon": "icon-staffing.svg",
+          "text": "Glasspaper People er et bemanningsbyrå som er opptatt av å finne riktig kandidat til riktig stilling. Glasspaper People er grundige i sine bemanningsprosesser og leverer raskt og presist i henhold til kundens ønsker. Glasspaper People har spesialisert seg på bemanningsløsninger innen IT, økonomi, HR, kontor og administrasjon.",
+          "linktext": "Les mer om hvordan vi hjelper deg med bemanning"
+        },
+        { "title": "Oppdrag",
+          "icon": "icon-assignment.svg",
+          "text": "Som årets Microsoft kurspartner og kompetansepartner for flertallet av de største IT-selskapene og IT-avdelingene i Norge i både offentlig og privat virksomhet vet vi hva markedet etterspør. Dette øker dine sjanser for å komme raskt ut i jobb eller oppdrag du ønsker deg og passer til.",
+          "linktext": "Se ledige stillinger og oppdrag"
+        },
+        { "title": "GlassCloud",
+          "type": "image",
+          "image": "glasscloud.jpg",
+          "text": "Glasspaper er spesialisert på rekruttering av ledere, IT-stillinger, økonomi / finans og administrasjon. Våre rådgivere er spesialisert på sine områder for å gi din bedrift trygghet i leveransen. Vi kan som eneste aktør i markedet tilby kompetanseheving som en del av rekrutteringsprosessen uten ekstra kostnader for våre kunder.",
+          "linktext": "Les mer om vår løsning"
+        }
+    ],
+    "contact": [
+        { "place": "Oslo",
+          "mapimage": "map-oslo.jpg",
+          "maplink": "https://maps.google.com/",
+          "address": "Brynsveien 12, 0667 OSLO",
+          "phone": "23 24 69 00",
+          "learning": {
+              "contact": "Ole Nordmann, avdelingsleder",
+              "phone": "+47 41 58 58 58",
+              "email": "ole.nordmann@glasspaper.no"
+          },
+          "people": {
+              "contact": "Lisa Jensen, avdelingsleder",
+              "phone": "+47 41 58 58 59",
+              "email": "lisa.jensen@glasspaper.no"
+          }
+        },
+        { "place": "Bergen",
+          "mapimage": "map-bergen.jpg",
+          "maplink": "https://maps.google.com/",
+          "address": "Sandbrogaten 5, 5003 Bergen",
+          "phone": "53 00 27 00",
+          "learning": {
+              "contact": "Einar Eriksen, avdelingsleder",
+              "phone": "+47 41 58 58 60",
+              "email": "einar.eriksen@glasspaper.no"
+          },
+          "people": {
+              "contact": "Lars Stokke, avdelingsleder",
+              "phone": "+47 41 58 58 61",
+              "email": "lars.stokke@glasspaper.no"
+          }
+        },
+        { "place": "Trondheim",
+          "mapimage": "map-trondheim.jpg",
+          "maplink": "https://maps.google.com/",
+          "address": "Strandveien 43, 7042 Trondheim",
+          "phone": "73 20 09 90",
+          "learning": {
+              "contact": "Tom Erik Lysø, avdelingsleder",
+              "phone": "+47 41 58 58 62",
+              "email": "tom.erik@glasspaper.no"
+          },
+          "people": {
+              "contact": "Siv Jernberg, avdelingsleder",
+              "phone": "+47 41 58 58 63",
+              "email": "siv@glasspaper.no"
+          }
+        }
+    ],
+    "news": [
+        { "title": "Oracle Education Center i Norge",
+          "date": "16.07.2015",
+          "text": "Vi vet ikke hvilken kunnskap som er essensiell for din bedrift, men vi kan hjelpe deg med hvordan du skal tilføre ny kunnskap, dele den og sikre at kunnskapen blir tatt i bruk.",
+          "image": "module-image.jpg"
+        },
+        { "title": "Microsoft kårer Glasspaper til Årets kurspartner 2015",
+          "date": "24.06.2015",
+          "text": "Glasspaper er kåret til Årets Microsoft kurspartner seks år på rad: 2015, 2014, 2013, 2012, 2011 og 2010, samt i 2008. Her kan du lese begrunnelsen fra Microsoft.",
+          "image": ""
+        },
+        { "title": "Jobmmarkedet innen IT - hvor går veien videre?",
+          "date": "11.05.2015",
+          "text": "Det er vanskelig å spå fremtiden, men Thomas Schibbye i Glasspaper ønsker likevel å dele sine erfaringer og refleksjoner rundt fremtiden for IT-bransjen.",
+          "image": ""
+        },
+        { "title": "Glasspaper lanserer ny e-læringsløsning: XtraMile",
+          "date": "11.05.2015",
+          "text": "Vi vet ikke hvilken kunnskap som er essensiell for din bedrift, men vi kan hjelpe deg men hvordan du skal tilføre ny kunnskap, dele den og sikre at kunnskapen blir tatt i bruk",
+          "image": "news-2.jpg"
+        },
+        { "title": "Glasspaper kåret til beste sted å jobbe",
+          "date": "11.05.2015",
+          "text": "Resultatene for den årlige kåringen av Norges beste arbeidsplasser er nettopp ferdig, og vi er stolte av å kunne si at vi havnet på førsteplass",
+          "image": ""
+        },
+        { "title": "Nye kurs innen IT-arkitektur",
+          "date": "11.05.2015",
+          "text": "Fra og med høsten 2016 er vi stolte av å kunne tilby en rekke nye kurs innen IT-arkitektur. Les hele saken for en full oversikt.",
+          "image": "news-3.jpg"
+        }
+    ],
+    "ads": [
+        { "logo": "kongsberg.png",
+          "title": "Er du en erfaren frontendutvikler og har et godt øye for design?",
+          "place": "Oslo",
+          "pubdate": "20.06.2016"
+        },
+        { "logo": "dnt.png",
+          "title": "Dyktig utvikler søkes",
+          "place": "Bergen",
+          "pubdate": "23.06.2016"
+        },
+        { "logo": "technogarden.png",
+          "title": "Konsulent: Visma Consulting søker Java-konsulenter til utviklingsprosjekter",
+          "place": "Trondheim",
+          "pubdate": "28.06.2016"
+        },
+        { "logo": "experis.png",
+          "title": "Softwareutviklere C# (KNC-IT 03/16)",
+          "place": "Oslo",
+          "pubdate": "20.06.2016"
+        },
+        { "logo": "centric.png",
+          "title": "Er du en erfaren frontendutvikler og har et godt øye for design?",
+          "place": "Bergen",
+          "pubdate": "23.06.2016"
+        },
+        { "logo": "jobzone.png",
+          "title": "Er du en erfaren frontendutvikler og har et godt øye for design?",
+          "place": "Trondheim",
+          "pubdate": "28.06.2016"
+        }
+    ]
+}

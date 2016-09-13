@@ -1,0 +1,44 @@
+// Default colors
+$colors: (
+    white: rgb(255,255,255),
+    cyan:  rgb(82,111,115),
+    gray:  rgb(226,226,226),
+    red:   rgb(196,65,17),
+    black: rgb(34,34,34)
+);
+
+$generate-colors: (
+    cyan: (tint: (20, 40, 60, 80, 90)),
+    red: (tint: (80, 90)),
+    black: (tint: (15, 20, 25, 40, 60, 80, 90, 95))
+);
+
+@each $name, $vars in $generate-colors {
+    @if not map-has-key($colors, $name) {
+        @warn "Color #{$name} not found in $colors map. Omitted";
+    }
+
+    $orig: map-get($colors, $name);
+
+    @if map-has-key($vars, "shade") {
+        $shade: map-get($vars, "shade");
+
+        @each $percent in $shade {
+            $val: mix(black, $orig, $percent);
+            $new: (#{$name}-shade-#{$percent}: $val);
+            $colors: map-merge($colors, $new);
+            @debug "Adding color: #{$new}";
+        }
+    }
+
+    @if map-has-key($vars, "tint") {
+        $tint: map-get($vars, "tint");
+
+        @each $percent in $tint {
+            $val: mix(white, $orig, $percent);
+            $new: (#{$name}-tint-#{$percent}: $val);
+            $colors: map-merge($colors, $new);
+            @debug "Adding color: #{$new}";
+        }
+    }
+}

@@ -1,0 +1,14 @@
+{% extends "../nbeat/layout/default.html" %}
+
+{% block header %}
+{% include "header.html" %}
+{% endblock %}
+
+{% block footer %}
+{% include "footer.html" %}
+{% endblock %}
+
+{% block scripts %}
+<script type="text/javascript" src="/js/tether.min.js"></script>
+{% parent %}
+{% endblock %}
