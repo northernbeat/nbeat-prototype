@@ -1,0 +1,12 @@
+$cfgColor: (
+    "black":     rgb(  0,   0,   0),
+    "white":     rgb(255, 255, 255),
+    "gray":      rgb(104, 112, 121),
+    "blue":      rgb( 47,  65, 125),
+    "purple":    rgb(162,  34, 141),
+    "red":       rgb(236, 126, 105),
+    "turquoise": rgb(149, 202, 203),
+    "yellow":    rgb(255, 218, 126)
+);
+
+@include config-set("color", $cfgColor);

@@ -1,0 +1,122 @@
+{
+    "plugins": [
+        "stylelint-scss"
+    ],
+    
+    "rules": {
+
+        "color-named": ["never", {
+            "ignore": ["inside-function"]
+        }],
+        "color-no-hex": true,
+        "color-no-invalid-hex": true,
+        
+        "font-family-name-quotes": "always-unless-keyword",
+        "font-family-no-duplicate-names": true,
+        
+        "function-calc-no-unspaced-operator": true,
+        "function-comma-newline-after": "never-multi-line",
+        "function-comma-space-after": "always",
+        "function-name-case": "lower",
+        
+        "number-leading-zero": "always",
+        "number-max-precision": 9,
+        
+        "string-no-newline": true,
+        "string-quotes": "double",
+        
+        "length-zero-no-unit": true,
+        
+        "time-min-milliseconds": 100,
+
+        "unit-case": "lower",
+        "unit-no-unknown": true,
+        "unit-whitelist": ["rem", "%", "px", "ms", "vw", "vh"],
+        
+        "value-keyword-case": "lower",
+        "value-list-comma-newline-after": "never-multi-line",
+        "value-list-comma-space-before": "never",
+        
+        "property-case": "lower",
+        "property-no-unknown": true,
+        
+        "declaration-bang-space-after": "never",
+        "declaration-bang-space-before": "always",
+        "declaration-colon-space-after": null,
+        
+        "declaration-block-no-duplicate-properties": [true, {
+            "ignore": ["consecutive-duplicates-with-different-values"]
+        }],
+        "declaration-block-semicolon-newline-after": "always-multi-line",
+        "declaration-block-semicolon-space-before": "never",
+        "declaration-block-single-line-max-declarations": 1,
+        "declaration-block-trailing-semicolon": "always",
+                                                      
+        "block-closing-brace-newline-after": ["always", {
+            "ignoreAtRules": ["if", "else"]
+        }],
+        "block-closing-brace-newline-before": "always",
+        "block-no-empty": null,
+        "block-opening-brace-newline-after": "always",
+        "block-opening-brace-space-before": ["always", {
+            "ignoreAtRules": ["mixin", "function"]
+        }],
+
+        "selector-attribute-brackets-space-inside": "never",
+        "selector-attribute-operator-space-after": "never",
+        "selector-attribute-operator-space-before": "never",
+        "selector-attribute-quotes": "always",
+        "selector-combinator-space-after": "always",
+        "selector-combinator-space-before": "always",
+        "selector-descendant-combinator-no-non-space": true,
+        "selector-max-compound-selectors": 5,
+        "selector-pseudo-class-case": "lower",
+        "selector-pseudo-class-no-unknown": true,
+        "selector-pseudo-class-parentheses-space-inside": "never",
+        "selector-pseudo-element-case": "lower",
+        "selector-pseudo-element-colon-notation": "double",
+        "selector-pseudo-element-no-unknown": true,
+        "selector-type-case": "lower",
+        "selector-type-no-unknown": true,
+        "selector-max-empty-lines": 0,
+
+        "selector-list-comma-newline-after": "always",
+        "selector-list-comma-newline-before": "never-multi-line",
+        "selector-max-specificity": "0,5,0",
+
+        "rule-empty-line-before": [ "always", {
+            "except": ["first-nested"],
+            "ignore": ["after-comment", "inside-block"]
+        } ],
+
+        "at-rule-blacklist": [["extend"], {
+            "message": "@extend is not allowed. Please use mixins instead."
+        }],
+        "at-rule-name-case": ["lower"],
+        
+        "comment-empty-line-before": [ "always", {
+            "except": ["first-nested"],
+            "ignore": ["stylelint-commands", "after-comment"]
+        } ],
+
+        "indentation": [4, {
+            "except": ["value"],
+            "indentInsideParens": "twice"
+        }],
+        "max-empty-lines": 3,
+        "max-line-length": 100,
+        "max-nesting-depth": 6,
+        "no-descending-specificity": null,
+        "no-duplicate-selectors": true,
+        "no-empty-source": true,
+        "no-eol-whitespace": true,
+        "no-extra-semicolons": true,
+        "no-missing-end-of-source-newline": true,
+
+        "scss/at-extend-no-missing-placeholder": true,
+        "scss/dollar-variable-colon-space-before": "never",
+        "scss/operator-no-newline-after": true,
+        "scss/operator-no-newline-before": true,
+        "scss/operator-no-unspaced": true
+    }
+}

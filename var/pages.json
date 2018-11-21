@@ -1,0 +1,222 @@
+{
+    "groups": [
+        { "title": "Design fra Jolene",
+          "pages": [
+              { "title": "Forside",
+                "url": "forside.html",
+                "dom": 100,
+                "design": 100
+              },
+              { "title": "Alternative banners",
+                "url": "forside-banners.html",
+                "dom": 100,
+                "design": 100
+              },
+              { "title": "Kurssøk, null treff",
+                "url": "kurs-null-treff.html",
+                "dom": 100,
+                "design": 100
+              },
+              { "title": "Kurssøk, tid",
+                "url": "kurs-tid.html",
+                "dom": 100,
+                "design": 100
+              },
+              { "title": "Kurs, fullvisning",
+                "url": "kurs.html",
+                "dom": 100,
+                "design": 100
+              },
+              { "title": "Påmelding",
+                "url": "pamelding.html",
+                "dom": 100,
+                "design": 100
+              },
+              { "title": "Fagområde",
+                "url": "fagomrade.html",
+                "dom": 100,
+                "design": 100
+              },
+              { "title": "Foredragsholder",
+                "url": "foredragsholder.html",
+                "dom": 100,
+                "design": 100
+              },
+              { "title": "Artikkel",
+                "url": "artikkel.html",
+                "dom": 100,
+                "design": 100
+              },
+              { "title": "Artikkelliste",
+                "url": "artikkel-liste.html",
+                "dom": 100,
+                "design": 100
+              }
+          ]
+        },
+        { "title": "Forvaltning",
+          "pages": [
+              { "title": "Lang liste med foredragsholdere",
+                "url": "/forvaltning/kurs-mange-foredragsholdere.html",
+                "dom": 100,
+                "design": 100
+              },
+              { "title": "Kurs med bilde/video",
+                "url": "/forvaltning/kurs-bilde-video.html",
+                "dom": 100,
+                "design": 100
+              },
+              { "title": "Epost",
+                "url": "/forvaltning/epost.html",
+                "dom": 100,
+                "design": 100
+              },
+              { "title": "Epost (tekst)",
+                "url": "/forvaltning/epost-tekst.html",
+                "dom": 100,
+                "design": 100
+              },
+              { "title": "Utskrift",
+                "url": "/forvaltning/utskrift.html",
+                "dom": 100,
+                "design": 100
+              }
+          ]
+        },
+        { "title": "Ekurs",
+          "pages": [
+              { "title": "Kurs, ikke kjøpt",
+                "url": "/ekurs/ikke-bestilt.html",
+                "dom": 100,
+                "design": 100
+              },
+              { "title": "Kurs, kjøpt",
+                "url": "/ekurs/bestilt.html",
+                "dom": 100,
+                "design": 100
+              },
+              { "title": "Klar for quiz",
+                "url": "/ekurs/klar-for-quiz.html",
+                "dom": 100,
+                "design": 100
+              },
+              { "title": "Quiz",
+                "url": "/ekurs/quiz.html",
+                "dom": 100,
+                "design": 100
+              },
+              { "title": "Resultat quiz",
+                "url": "/ekurs/quiz-resultat.html",
+                "dom": 100,
+                "design": 100
+              },
+              { "title": "Negativt resultat, quiz",
+                "url": "/ekurs/quiz-negativt-resultat.html",
+                "dom": 100,
+                "design": 100
+              }
+          ]
+        },
+        { "title": "Min side",
+          "pages": [
+              { "title": "Forside",
+                "url": "/minside/forside.html",
+                "dom": 100,
+                "design": 100
+              },
+              { "title": "Redigere profil",
+                "url": "/minside/profil.html",
+                "dom": 100,
+                "design": 100
+              },
+              { "title": "Mine kurs",
+                "url": "/minside/minekurs.html",
+                "dom": 100,
+                "design": 100
+              },
+              { "title": "Permanent kursside",
+                "url": "/minside/permanent-kursside.html",
+                "dom": 100,
+                "design": 100
+              },
+              { "title": "Registrer bruker",
+                "url": "/minside/registrering.html",
+                "dom": 100,
+                "design": 100
+              },
+              { "title": "Logg inn",
+                "url": "/minside/innlogging.html",
+                "dom": 100,
+                "design": 100
+              }
+          ]
+        },
+        { "title": "Admin",
+          "pages": [
+              { "title": "Forside: Vanlige",
+                "url": "/admin/forside-vanlige.html",
+                "dom": 100,
+                "design": 100
+              },
+              { "title": "Forside: Ekurs",
+                "url": "/admin/forside-ekurs.html",
+                "dom": 100,
+                "design": 100
+              },
+              { "title": "Kurs: Vanlige",
+                "url": "/admin/kurs-vanlige.html",
+                "dom": 100,
+                "design": 100
+              },
+              { "title": "Kurs: Ekurs",
+                "url": "/admin/kurs-ekurs.html",
+                "dom": 100,
+                "design": 100
+              },
+              { "title": "Kommunikasjon",
+                "url": "/admin/kommunikasjon.html",
+                "dom": 100,
+                "design": 100
+              }
+          ]
+        },
+        { "title": "Endringer 2017-01-02",
+          "pages": [
+              { "title": "Forside: Pålogget",
+                "url": "/changes.02.01.2017/frontpage-loggedin.html",
+                "dom": 100,
+                "design": 100
+              }
+          ]
+        },
+        { "title": "Nettnav: Honorar",
+          "pages": [
+              { "title": "Login",
+                "url": "/honorar/login.html",
+                "dom": 0,
+                "design": 0
+              },
+              { "title": "Tofaktor",
+                "url": "/honorar/tofaktor.html",
+                "dom": 0,
+                "design": 0
+              },
+              { "title": "Aksepter",
+                "url": "/honorar/aksepter.html",
+                "dom": 0,
+                "design": 0
+              },
+              { "title": "Registrering",
+                "url": "/honorar/registrer.html",
+                "dom": 0,
+                "design": 0
+              },
+              { "title": "Kvittering",
+                "url": "/honorar/kvittering.html",
+                "dom": 0,
+                "design": 0
+              }
+          ]
+        }
+    ]
+}

@@ -1,0 +1,20 @@
+{% extends "../layout/default.html.twig" %}
+
+{% block content %}
+<div class="article" role="main">
+  {% include "../components/common/searchbar.html.twig" %}
+
+  {% set data = { width: "banner-40-60",
+                  color: "banner-bg-purple",
+                  title: "Velkommen til Advokatenes fagdager 22.-24. mai",
+                  link: "#",
+                  linkbar: true,
+                  linkbarColor: "linkbar-black",
+                  linkbarText: "Se hele programmet her",
+                  contentImage: "/img/assets/announcement.jpg" }
+  %}
+  {% include "../components/common/banner.html.twig" with data only %}
+  {% include "../components/common/course-list.html.twig" %}  
+</div>
+{% include "../components/common/content-block-list.html.twig" %}
+{% endblock %}

@@ -1,0 +1,140 @@
+{
+    "build": {
+        "dest": "dist"
+    },
+
+    "system": {
+        "taskdir": "./tasks",
+        "project": {
+            "src":   "./src/project"
+        },
+        "metadata": {
+            "config": {
+                "isExternalSrc": true
+            },
+            "files": {
+                "pages":        "./var/pages.json",
+                "subjectareas": "./var/subjectareas.json",
+                "courses":      "./var/courses.json"
+            }
+        }
+    },
+    
+    "gulp": {
+        "loadPlugins": {
+            "pattern": [
+                "gulp-*",
+                "gulp.",
+                "debug",
+                "del",
+                "nano",
+                "metalsmith-*"
+            ]
+        }
+    },
+
+    "webserver": {
+        "opts": {
+            "root": "dist/",
+            "livereload": true,
+            "port": 10000
+        }
+    },
+
+    "metalsmith": {
+        "src":       "src/html/pages/**/*",
+        "templates": "src/html/templates",
+        "jstransformer": {
+            "engineLocals": {
+                "twig": {
+                    "cache": false,
+                    "debug": false,
+                    "trace": false
+                }
+            },
+            "cache": false
+        }
+    },
+    
+    "sass": {
+        "src":  "src/scss/*.scss",
+        "dest": "/css",
+        "opts": {
+            "includePaths": [
+                "./node_modules",
+                "./node_modules/bootstrap-sass/assets/stylesheets/",
+                "./src/nbeat-prototype/scss"
+            ],
+            "sourcemap": true,
+            "omitSourceMapUrl": true,
+            "outFile": "./dist/css/site.map"
+        }
+    },
+
+    "kss": {
+        "source": "src/scss",
+        "destination": "dist/styleguide/",
+        "title": "JUS Style Guide",
+        "builder": "src/kss/",
+        "css": "/dist/css/jus.css",
+        "cssDir": "/css"
+    },
+
+    "stylelint": {
+        "src": [
+            "src/scss/**/*.scss",
+            "!src/scss/ext/**/*.scss"
+        ],
+        "opts": {
+            "reporters": [
+                { "formatter": "string",
+                  "console": true }
+            ],
+            "debug": true
+        }
+    },
+
+    "specGraph": {
+        "src": "dist/css/jus.css",
+        "opts": {
+            "directory": "dist/spec-graph"
+        }
+    },
+
+    "svgSprite": {
+        "src": "src/svg/**/*.svg",
+        "dest": "/img"
+    },
+    
+    "assets": {
+        "images": {
+            "dest": "/img",
+            "src": ["src/img/**/*"]
+        },
+        "fonts": {
+            "dest": "/fonts",
+            "src": ["src/fonts/**/*"]
+        },
+        "css": {
+            "dest": "/css",
+            "src": []
+        },
+        "favicon": {
+            "dest": "/",
+            "src": ["src/favicon/**/*"]
+        },
+        "js": {
+            "dest": "/js",
+            "src": [
+                "src/js/**/*",
+                "node_modules/jquery/dist/jquery.min.js",
+                "node_modules/bootstrap/dist/js/bootstrap.min.js",
+                "node_modules/popper.js/dist/umd/popper.min.js",
+                "node_modules/svg4everybody/dist/svg4everybody.min.js",
+                "node_modules/select2/dist/js/select2.min.js",
+                "node_modules/moment/min/moment.min.js",
+                "node_modules/sprintf-js/dist/sprintf.min.js"
+            ]
+        }
+    }
+}

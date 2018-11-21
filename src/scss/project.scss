@@ -1,0 +1,22 @@
+@import "lib/*";
+@import "config/base/*";
+@import "config/modules/*";
+
+@import "colors";
+@import "config-bootstrap";
+@import "bootstrap-wrapper";
+@import "config";
+@import "mixins/breakpoints";
+
+@import "modules/btn-gray";
+@import "modules/btn-icon";
+@import "modules/dialog";
+@import "modules/codeinput";
+@import "modules/payment-form";
+@import "modules/list-assignments";
+@import "modules/list-attachments";
+@import "modules/list-outlays";
+@import "modules/outlay";
+@import "modules/modal--center";
+
+// @debug $sass-config-attr;

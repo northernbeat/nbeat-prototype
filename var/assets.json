@@ -1,0 +1,24 @@
+{
+    "js": {
+        "async": [
+        ],
+        "defer": [
+            "svg4everybody.min.js",
+            "jquery.min.js",
+            "popper.min.js",
+            "bootstrap.min.js",
+            "select2.min.js",
+            "quagga.min.js",
+            "hideShowPassword.min.js",
+            "slick.min.js",
+            "lightslider.min.js",
+            "lightgallery-all.min.js",
+            "jquery.rateyo.min.js",
+            "jquery.dataTables.min.js",
+            "datepicker.min.js",
+            "gmap3.min.js",
+            "motek.js",
+            "motek-nbeat.js"
+        ]
+    }
+}

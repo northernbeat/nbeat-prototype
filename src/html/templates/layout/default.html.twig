@@ -1,0 +1,54 @@
+{% extends "../nbeat/layout/page.html.twig" %}
+
+{% block head %}
+  {{ parent() }}
+  <link rel="stylesheet" href="/css/jus.css" />
+  <link rel="stylesheet" href="/css/jus-payment.css" />
+  <link rel="apple-touch-icon" sizes="57x57" href="/apple-touch-icon-57x57.png?v=XBBKXOOGjR" />
+  <link rel="apple-touch-icon" sizes="60x60" href="/apple-touch-icon-60x60.png?v=XBBKXOOGjR" />
+  <link rel="apple-touch-icon" sizes="72x72" href="/apple-touch-icon-72x72.png?v=XBBKXOOGjR" />
+  <link rel="apple-touch-icon" sizes="76x76" href="/apple-touch-icon-76x76.png?v=XBBKXOOGjR" />
+  <link rel="apple-touch-icon" sizes="114x114" href="/apple-touch-icon-114x114.png?v=XBBKXOOGjR" />
+  <link rel="apple-touch-icon" sizes="120x120" href="/apple-touch-icon-120x120.png?v=XBBKXOOGjR" />
+  <link rel="apple-touch-icon" sizes="144x144" href="/apple-touch-icon-144x144.png?v=XBBKXOOGjR" />
+  <link rel="apple-touch-icon" sizes="152x152" href="/apple-touch-icon-152x152.png?v=XBBKXOOGjR" />
+  <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon-180x180.png?v=XBBKXOOGjR" />
+  <link rel="icon" type="image/png" href="/favicon-32x32.png?v=XBBKXOOGjR" sizes="32x32" />
+  <link rel="icon" type="image/png" href="/favicon-194x194.png?v=XBBKXOOGjR" sizes="194x194" />
+  <link rel="icon" type="image/png" href="/favicon-96x96.png?v=XBBKXOOGjR" sizes="96x96" />
+  <link rel="icon" type="image/png" href="/android-chrome-192x192.png?v=XBBKXOOGjR" sizes="192x192" />
+  <link rel="icon" type="image/png" href="/favicon-16x16.png?v=XBBKXOOGjR" sizes="16x16" />
+  <link rel="manifest" href="/manifest.json?v=XBBKXOOGjR" />
+  <link rel="shortcut icon" href="/favicon.ico?v=XBBKXOOGjR" />
+  <meta name="msapplication-TileColor" content="#2f417d" />
+  <meta name="msapplication-TileImage" content="/mstile-144x144.png?v=XBBKXOOGjR" />
+  <meta name="theme-color" content="#2f417d" />
+{% endblock %}
+
+{% block body %}
+  {% include "menu.html.twig" %}
+
+  {% block content %}
+    {{ contents }}
+  {% endblock %}
+
+  {% include "subject-areas.html.twig" %}
+  {% include "footer.html.twig" %}
+  {% include "content-indicator.html.twig" %}
+
+  <script type="text/javascript" src="/js/jquery.min.js"></script>
+  <script type="text/javascript" src="/js/moment.min.js"></script>
+  <script type="text/javascript" src="/js/sprintf.min.js"></script>
+  <script type="text/javascript" src="/js/bootstrap.min.js"></script>
+  <script type="text/javascript" src="/js/froogaloop.min.js"></script>
+  <script type="text/javascript" src="/js/CustomSorter.js"></script>
+  <script type="text/javascript" src="/js/jquery.flexselect.js"></script>
+  <script type="text/javascript" src="/js/jquery.flexinput.js"></script>
+  <script type="text/javascript" src="/js/jquery-scrolltofixed-min.js"></script>
+  <script type="text/javascript" src="/js/jquery.a11y-jump-menu.js"></script>
+  <script type="text/javascript" src="/js/dragend.min.js"></script>
+  <script type="text/javascript" src="/js/bootstrap-pincode-input.js"></script>
+  <script type="text/javascript" src="/js/jquery.nbeat.specialnumber.js"></script>
+  <script type="text/javascript" src="/js/jus.js"></script>
+  <script type="text/javascript" src="/js/jus-payment.js"></script>
+{% endblock %}

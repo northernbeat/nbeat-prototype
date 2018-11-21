@@ -1,0 +1,31 @@
+{% extends "layout.html.twig" %}
+
+{% block content %}
+{% for g in pages.groups %}
+<div class="nbeat-project__group">
+  <h2>{{ g.title }}</h2>
+  <div class="list-mockups list-1 list-sm-2 list-md-3 list-lg-5">
+    {% for p in g.pages %}
+    {% include "card.html.twig" with p %}
+    {% endfor %}
+  </div>
+</div>
+{% endfor %}
+
+{#
+<div class="nbeat-project__group">
+  <h2>Dokumentasjon og kvalitetssikring</h2>
+  <div class="list-mockups list-1 list-sm-2 list-md-3 list-lg-5">
+    {% set p = {"url": "spec-graph/index.html", "status": 100, "title": "CSS Specificity Graph"} %}
+    {% include "card.html.twig" with p %}
+
+    {% set p = {"url": "styleguide/index.html", "status": 100, "title": "Styleguide"} %}
+    {% include "card.html.twig" with p %}
+
+    {% set p = {"url": "palette.html", "status": 100, "title": "Color Palette"} %}
+    {% include "card.html.twig" with p %}
+  </div>
+</div>
+#}
+
+{% endblock %}

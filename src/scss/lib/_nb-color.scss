@@ -1,0 +1,48 @@
+@function nb-color($color, $weight: 50)
+{
+    @if not(config-has("color")) {
+        @error "Color map 'color.' is not set.";
+    }
+
+    @if not(config-has("color.#{$color}")) {
+        @error "Color 'color.#{$color}' is not set.";
+    }
+
+    @if not(is-integer($weight)) or ($weight < 0) or ($weight > 100) {
+        @error "$weight must be an integer between 0 and 100.";
+    }
+
+    $name: #{$color}-#{$weight};
+
+    @if (config-has("cache.palette.#{$name}")) {
+        @return config-get("cache.palette.#{$name}");
+    }
+
+    $orig:      config-get("color.#{$color}");
+    $new-color: $orig;
+
+    @if ($weight < 50) {
+        $percent:   (50 - $weight) * 2;
+        $new-color: mix(black, $orig, $percent);
+    } @else if ($weight > 50) {
+        $percent:   ($weight - 50) * 2;
+        $new-color: mix(white, $orig, $percent);
+    }
+
+    $new-map: (#{$name}: $new-color);
+    $config:  config-set("cache.palette.#{$name}", $new-color);
+
+    @return $new-color;
+}
+
+
+
+@function nb-color-yiq($color)
+{
+    $r: red($color);
+    $g: green($color);
+    $b: blue($color);
+
+    $yiq: (($r * 299) + ($g * 587) + ($b * 114)) / 1000;
+    @return $yiq;
+}

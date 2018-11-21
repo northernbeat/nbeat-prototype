@@ -1,8 +1,9 @@
 {
-  "name": "@eirikref/nbeat-prototype-assets",
-  "version": "0.0.1",
+  "name": "jus.no",
+  "version": "1.1.0",
   "private": "true",
-  "description": "Assets used by ",
+  "display": "Juristenes utdanningssenter, jus.no",
+  "description": "jus.no",
   "author": {
     "name": "Northern Beat",
     "url": "http://www.northernbeat.no/"
@@ -10,40 +11,70 @@
   "contributors": [
     {
       "name": "Eirik Refsdal",
-      "email": "eirik.refsdal@nbeat.no"
+      "email": "eirik@nbeat.no"
     }
   ],
+  "project": {
+    "name": "jus",
+    "cssdir": "/css",
+    "jsdir": "/js",
+    "favicon": {
+      "cachekey": "123456789",
+      "color": "#000"
+    }
+  },
   "repository": {
     "type": "git",
-    "url": "https://github.com/northernbeat/kunder"
+    "url": "https://github.com/northernbeat/jus.no"
   },
   "devDependencies": {
-    "del": "^2.1.0",
-    "eslint": "^1.10.2",
-    "event-stream": "^3.3.1",
-    "gulp": "^3.9.0",
-    "gulp-concat": "^2.6.0",
-    "gulp-cssnano": "^2.0.1",
-    "gulp-debug": "^2.1.2",
-    "gulp-eslint": "^1.1.1",
-    "gulp-html": "^0.4.3",
-    "gulp-load-plugins": "^1.0.0-rc.1",
-    "gulp-metalsmith": "0.0.3",
-    "gulp-postcss": "^6.0.1",
+    "bootstrap-sass": "3.3.7",
+    "del": "^3.0.0",
+    "eslint": "^5.8.0",
+    "event-stream": "^4.0.1",
+    "fancy-log": "^1.3.2",
+    "gulp": "^3.9.1",
+    "gulp-concat": "^2.6.1",
+    "gulp-connect": "^5.5.0",
+    "gulp-cssnano": "^2.1.3",
+    "gulp-debug": "^4.0.0",
+    "gulp-eslint": "^5.0.0",
+    "gulp-exec": "^3.0.1",
+    "gulp-html": "^0.5.0",
+    "gulp-load-plugins": "^1.5.0",
+    "gulp-metalsmith": "1.1.0",
+    "gulp-plumber": "^1.2.0",
     "gulp-rename": "^1.2.2",
-    "gulp-sass": "^2.0.1",
-    "gulp-util": "^3.0.7",
-    "harmonize": "^1.4.4",
-    "jquery": "^2.1.4",
-    "masonry-layout": "^4.1.0",
-    "metalsmith-in-place": "^1.3.2",
-    "metalsmith-layouts": "^1.4.2",
-    "metalsmith-metadata": "0.0.4",
-    "metalsmith-packagejson": "^1.0.1",
-    "postcss": "^5.0.10",
-    "swig": "^1.4.2",
-    "twig": "^0.8.5",
-    "validator-nu": "^2.1.15",
-    "vinyl-paths": "^2.1.0"
+    "gulp-sass": "^4.0.2",
+    "gulp-sass-glob": "^1.0.8",
+    "gulp-shell": "^0.6.5",
+    "gulp-sourcemaps": "^2.6.4",
+    "gulp-specificity-graph": "0.0.1",
+    "gulp-stylelint": "^8.0.0",
+    "gulp-svg-sprite": "^1.4.0",
+    "harmonize": "^2.0.0",
+    "http-server": "^0.11.1",
+    "jquery": "^3.3.1",
+    "jstransformer": "^1.0.0",
+    "jstransformer-twig": "^1.5.0-alpha.4",
+    "kss": "^3.0.0-beta.18",
+    "metalsmith-in-place": "^4.1.1",
+    "metalsmith-jstransformer": "^0.13.0",
+    "metalsmith-layouts": "^2.1.0",
+    "metalsmith-metadata": "github:jembijoux/metalsmith-metadata#ext-data-sources",
+    "metalsmith-packagejson": "^1.1.0",
+    "metalsmith-rootpath": "^1.0.4",
+    "moment": "^2.22.2",
+    "popper.js": "^1.14.1",
+    "select2": "^4.0.6-rc.1",
+    "specificity-graph": "^0.1.7",
+    "sprintf-js": "^1.1.1",
+    "stylelint": "^9.1.3",
+    "stylelint-declaration-use-variable": "^1.6.1",
+    "stylelint-scss": "^3.3.2",
+    "svg4everybody": "^2.1.9",
+    "validator-nu": "^2.2.2",
+    "vinyl-paths": "^2.1.0",
+    "vnu-jar": "^18.11.5"
   }
 }

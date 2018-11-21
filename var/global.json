@@ -1,0 +1,125 @@
+{
+    "categories": [
+        { "title": "Produsent",
+          "class": "list-item--filter",
+          "children": ["Ampack", "Belle", "Bostitch", "Festool", "Hilti", "Motek"]
+        },
+        { "title": "Strømkilde",
+          "class": "list-item--filter",
+          "children": ["10,8 V", "14 V", "22 V", "36 V", "Andre batterier", "Gass, strøm, luft"]
+        },
+        { "title": "Betongbearbeiding",
+          "children": ["Betongsag", "Betongsliper", "Betongslisser", "Meiselhammer", "Slamsuger", "Vaiersag"]
+        },
+        { "title": "Betongutstyr",
+          "children": ["Glattebrygger", "Glattemaskiner", "Markvibrator", "Omrører", "Stavvibrator"]
+        },
+        { "title": "Laser",
+          "children": ["Avstandsmåler", "Detektor og borguider", "Roterende laser", "Stativer", "Streklaser"]
+        },
+        { "title": "Sag og kapp",
+          "children": ["Bajonettsag", "Benkesag", "Kapp- og gjærsag", "Kjedesag", "Sirkelsag", "Stikksag", "Vinkelsliper"]
+        },
+        { "title": "Skru og bor",
+          "children": ["Borhammer", "Drill", "Kjernebor", "Kjernebor slam- og vannsystem", "Kombihammer", "Muttertrekker", "Skrumaskin"]
+        },
+        { "title": "Spikre",
+          "children": ["Beltespikerpistol", "Boltepistol", "Dykkertpistol", "Kompressor", "Krampepistol", "Stavspikerpistol"]
+        },
+        { "title": "Trebearbeiding",
+          "children": ["Fres", "Høvel", "Kantlimer", "Oljepåføring", "Slipemaskin"]
+        },
+        { "title": "Diverse",
+          "children": ["Batterier og ladere", "Bord og stativer", "Byggstrøm", "Lys", "Oppbevaring", "Polering", "Støvsuger", "Utpressapparat"]
+        }
+    ],
+    "productImg": [
+        { "src": "BX3-NG_l.jpg",
+          "text": "72101332 - Boltepistol Hilti BX3 22-A"},
+        { "src": "blandevisp.jpg" },
+        { "src": "skruv.jpg" },
+        { "src": "vislider-terrasseskruer.jpg" },
+        { "src": "B22-30_l.jpg",
+          "text": "72136423 - Batteri Hilti B22/3.0 Ah LI-i"},
+        { "src": "B22-52-87023_l.jpg",
+          "text": "72136396 - Batteri Hilti B22/5.2 Ah LI-i"},
+        { "src": "Bruksbilde-BX-elektro_l.jpg" },
+        { "src": "Bruksbilde-BX-staalstender_l.jpg"},
+        { "src": "C4-36-350_l.jpg",
+          "text": "72034219 - Lader Hilti C4/36-350"}
+    ],
+    "product": {
+        "details": {
+            "sku": [
+                [ "Skrue dimensjon", "7 mm" ],
+                [ "Lengde tot", "57 mm" ],
+                [ "Eske", "D6" ],
+                [ "Ant/kart", "800" ],
+                [ "Salgsantall", "100" ]
+            ],
+            "small": [
+                [ "Dimensjon mm", "264x356x124" ],
+                [ "Kapasitet", "225-300 spiker" ],
+                [ "Vekt", "2,49 kg" ]
+            ],
+            "section": [
+                [ "Spenning", "10,8 volt" ],
+                [ "Batterikapasitet", "2,6 Ah" ],
+                [ "Maks dreiemoment (hardt materiale)", "24 Nm" ],
+                [ "Maks dreiemoment (mykt materiale)", "12 Nm" ],
+                [ "Antall gir", "2" ],
+                [ "1. gir uten belastning", "400 o/min" ],
+                [ "2. gir uten belastning", "1500 o/min" ],
+                [ "Borchucks", "1/4" ],
+                [ "Mål (LxBxH)", "144 x 70 x 206 mm" ],
+                [ "Vekt iht. EPTA-metoden 01/2003", "1,0 kg" ]
+            ]
+        }
+    },
+    "sidebar": {
+        "selfservice": {
+            "orders": {
+                "href": "#",
+                "title": "Ordre"
+            },
+            "profile": {
+                "href": "#",
+                "title": "Min profil"
+            },
+            "lists": {
+                "href": "#",
+                "title": "Mine handlelister"
+            },
+            "inquiry": {
+                "href": "#",
+                "title": "Mine henvendelser"
+            },
+            "company": {
+                "href": "#",
+                "title": "Firmainformasjon"
+            },
+            "projects": {
+                "href": "#",
+                "title": "Prosjekter"
+            },
+            "users": {
+                "href": "#",
+                "title": "Brukere"
+            }
+        }
+    },
+    "stores": [
+        { "name": "Motek Oslo, Groruddalen",
+          "address": "Alf Bjerckesvei 22 B, 0582 Oslo",
+          "lat": "59.9349435",
+          "lon": "10.8307304"},
+        { "name": "Motek Oslo, Ensjø",
+          "address": "Ensjøveien 10, 0655 Oslo",
+          "lat": "59.9258223",
+          "lon": "10.791224"},
+        { "name": "Motek Asker/Bærum, Billingstad",
+          "address": "Billingstadsletta 17, 1396 Billingstad",
+          "lat": "59.8758488",
+          "lon": "10.4936754"}
+    ]
+}
