@@ -1,8 +1,0 @@
-node_modules/
-build/fonts
-build/img
-build/js
-build/*.png
-build/*.ico
-build/*.xml
-build/*.json
