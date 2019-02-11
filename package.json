@@ -18,10 +18,10 @@
         }
     ],
     "dependencies": {
-        "@northernbeat/jquery-plugins": "^1.0.1",
+        "@northernbeat/jquery-plugins": "^1.0.2",
         "@northernbeat/gulp-tasks": "^1.0.3",
         "@northernbeat/html-templates": "^0.0.1",
-        "bootstrap": "^4.2.1",
+        "bootstrap": "^4.3.0",
         "datatables": "^1.10.18",
         "deepmerge": "^3.1.0",
         "fancy-log": "^1.3.3",
