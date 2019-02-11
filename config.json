@@ -31,9 +31,7 @@
         "dest": "css",
         "opts": {
             "includePaths": [
-                "./node_modules",
-                "./node_modules/bootstrap-sass/assets/stylesheets/",
-                "./src/nbeat-prototype/scss"
+                "./node_modules"
             ],
             "sourcemap": true,
             "omitSourceMapUrl": true,
