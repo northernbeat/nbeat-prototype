@@ -1,6 +1,6 @@
 {
     "name": "@northernbeat/prototype",
-    "version": "1.0.5",
+    "version": "1.0.6",
     "description": "Northern Beat web prototype framework",
     "main": "index.js",
     "repository": {
@@ -21,6 +21,7 @@
         "@northernbeat/jquery-plugins": "^1.0.2",
         "@northernbeat/gulp-tasks": "^1.0.3",
         "@northernbeat/html-templates": "^0.0.1",
+        "@northernbeat/sass-lib": "^0.1.0",
         "bootstrap": "^4.3.0",
         "datatables": "^1.10.18",
         "deepmerge": "^3.1.0",
