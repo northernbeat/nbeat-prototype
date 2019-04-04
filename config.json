@@ -36,6 +36,19 @@
             "sourcemap": true,
             "omitSourceMapUrl": true,
             "outFile": "./dist/css/site.map"
+        },
+        "lint": {
+            "src": [
+                "src/scss/**/*.scss",
+                "!src/scss/ext/**/*.scss"
+            ],
+            "opts": {
+                "reporters": [
+                    { "formatter": "string",
+                      "console": true }
+                ],
+                "debug": true
+            }
         }
     },
 
