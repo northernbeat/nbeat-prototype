@@ -47,7 +47,8 @@
                     { "formatter": "string",
                       "console": true }
                 ],
-                "debug": true
+                "debug": true,
+                "configFile": "node_modules/@northernbeat/prototype/etc/.stylelintrc.json"
             }
         }
     },
