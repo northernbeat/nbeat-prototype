@@ -40,6 +40,7 @@
         "lint": {
             "src": [
                 "src/scss/**/*.scss",
+                "!src/scss/config/**/*.scss",
                 "!src/scss/ext/**/*.scss"
             ],
             "opts": {

@@ -121,7 +121,5 @@
         "scss/operator-no-unspaced": true,
 
         "sh-waqar/declaration-use-variable": [["/color/", "font-size"]]
-        
-        
     }
 }
