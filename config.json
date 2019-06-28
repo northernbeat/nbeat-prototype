@@ -27,8 +27,9 @@
     },
 
     "css": {
-        "src":  "src/scss/*.scss",
-        "dest": "css",
+        "src":    "src/scss/*.scss",
+        "docsrc": "src/scss/**/*.scss",
+        "dest":   "css",
         "opts": {
             "includePaths": [
                 "./node_modules"
