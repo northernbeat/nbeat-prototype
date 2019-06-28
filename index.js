@@ -34,6 +34,7 @@ class NbeatPrototype
         this.gulp.task("html",    this.gulp.series("twig"));
         this.gulp.task("css",     this.gulp.series("sass"));
         this.gulp.task("qa",      this.gulp.series("stylelint"));
+        this.gulp.task("doc",     this.gulp.series("sassdoc"));
         this.gulp.task("default", this.gulp.series("clean", "html", "css", "assets", "webserver", "watch"));
     }
     

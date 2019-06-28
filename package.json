@@ -18,13 +18,13 @@
         }
     ],
     "dependencies": {
-        "@northernbeat/gulp-tasks": "^1.0.7",
+        "@northernbeat/gulp-tasks": "^1.0.9",
         "@northernbeat/html-templates": "^0.0.1",
         "@northernbeat/jquery-plugins": "^1.0.2",
         "@northernbeat/sass-lib": "^0.1.1",
         "bootstrap": "^4.3.1",
         "datatables": "^1.10.18",
-        "deepmerge": "^3.2.0",
+        "deepmerge": "^3.3.0",
         "fancy-log": "^1.3.3",
         "gmap3": "^7.2.0",
         "gulp": "^4.0.2",
@@ -44,7 +44,7 @@
         "svg4everybody": "^2.1.9",
         "vue": "^2.6.10",
         "vue-cli": "^2.9.6",
-        "vue-devtools": "^5.0.0-beta.1",
+        "vue-devtools": "^5.1.0",
         "vue-router": "^3.0.6",
         "vuex": "^3.1.1"
     }
