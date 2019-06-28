@@ -57,6 +57,7 @@
     "watch": {
         "html":    ["src/html/**"],
         "css":     ["src/scss/**"],
+        "doc":     ["src/scss/**"],
         "assets":  ["src/favicon/**", "src/fonts/**", "src/img/**", "src/svg/**", "src/js/**"],
         "default": ["package.json", "var/**", "gulpfile.js"]
     },
