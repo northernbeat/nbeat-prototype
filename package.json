@@ -18,7 +18,7 @@
         }
     ],
     "dependencies": {
-        "@northernbeat/gulp-tasks": "^1.0.9",
+        "@northernbeat/gulp-tasks": "^1.0.10",
         "@northernbeat/html-templates": "^0.0.1",
         "@northernbeat/jquery-plugins": "^1.0.2",
         "@northernbeat/sass-lib": "^0.1.1",
