@@ -18,7 +18,7 @@
         }
     ],
     "dependencies": {
-        "@northernbeat/gulp-tasks": "^1.0.13",
+        "@northernbeat/gulp-tasks": "^1.0.14",
         "@northernbeat/html-templates": "^0.0.1",
         "@northernbeat/jquery-plugins": "^1.0.2",
         "@northernbeat/sass-lib": "^0.1.1",
@@ -38,7 +38,7 @@
         "popper.js": "^1.15.0",
         "quagga": "^0.12.1",
         "scrolltofixed": "^1.0.6",
-        "select2": "^4.0.8",
+        "select2": "^4.0.10",
         "slick-carousel": "^1.8.1",
         "sprintf-js": "^1.1.2",
         "svg4everybody": "^2.1.9",
