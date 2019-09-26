@@ -42,7 +42,7 @@
         "globOpts": {
             "ignorePaths": [
                 "./tests",
-                "*.spec.scss"
+                "**/*.spec.scss"
             ]
         },
         "lint": {
