@@ -39,6 +39,12 @@
             "omitSourceMapUrl": true,
             "outFile": "./dist/css/site.map"
         },
+        "globOpts": {
+            "ignorePaths": [
+                "./tests",
+                "*.spec.scss"
+            ]
+        },
         "lint": {
             "src": [
                 "src/scss/**/*.scss",
