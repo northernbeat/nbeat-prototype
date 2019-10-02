@@ -45,6 +45,9 @@
                 "**/*.spec.scss"
             ]
         },
+        "optimizerOpts": {
+            "level": 2
+        },
         "lint": {
             "src": [
                 "src/scss/**/*.scss",
