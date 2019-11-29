@@ -17,13 +17,12 @@
         "twig": {
             "cache": false,
             "namespaces": {
-                "nbeat": "node_modules/@northernbeat/html-templates/lib/"
+                "nbeat":      "node_modules/@northernbeat/html-templates/lib/",
+                "layout":     "src/html/layout",
+                "partials":   "src/html/partials",
+                "components": "src/html/components",
+                "svg":        "src/html/svg"
             }
-        },
-        "tidy": {
-            "doctype": "html5",
-            "hideComments": true,
-            "indent": true
         }
     },
 
@@ -46,7 +45,7 @@
             ]
         },
         "optimizerOpts": {
-            "level": 2
+            "level": 1
         },
         "lint": {
             "src": [
@@ -85,7 +84,9 @@
                    "node_modules/svg4everybody/dist/svg4everybody.min.js",
                    "node_modules/select2/dist/js/select2.min.js",
                    "node_modules/moment/min/moment.min.js",
-                   "node_modules/sprintf-js/dist/sprintf.min.js"
+                   "node_modules/sprintf-js/dist/sprintf.min.js",
+                   "node_modules/vue/dist/vue.js",
+                   "node_modules/bootstrap-vue/dist/bootstrap-vue.js"
                   ]
     }
 }
