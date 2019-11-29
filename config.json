@@ -85,8 +85,9 @@
                    "node_modules/select2/dist/js/select2.min.js",
                    "node_modules/moment/min/moment.min.js",
                    "node_modules/sprintf-js/dist/sprintf.min.js",
-                   "node_modules/vue/dist/vue.js",
-                   "node_modules/bootstrap-vue/dist/bootstrap-vue.js"
+                   "node_modules/vue/dist/*",
+                   "node_modules/bootstrap-vue/dist/*",
+                   "node_modules/portal-vue/dist/*.js"
                   ]
     }
 }
