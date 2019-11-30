@@ -78,16 +78,17 @@
         "/fonts": ["src/fonts/**/*"],
         "/css":   ["src/css/**/*"],
         "/js":    ["src/js/**/*",
-                   "node_modules/jquery/dist/jquery.min.js",
-                   "node_modules/bootstrap/dist/js/bootstrap.min.js",
-                   "node_modules/popper.js/dist/umd/popper.min.js",
-                   "node_modules/svg4everybody/dist/svg4everybody.min.js",
-                   "node_modules/select2/dist/js/select2.min.js",
-                   "node_modules/moment/min/moment.min.js",
-                   "node_modules/sprintf-js/dist/sprintf.min.js",
-                   "node_modules/vue/dist/*",
                    "node_modules/bootstrap-vue/dist/*",
-                   "node_modules/portal-vue/dist/*.js"
+                   "node_modules/bootstrap/dist/js/bootstrap.min.js",
+                   "node_modules/jquery/dist/jquery.min.js",
+                   "node_modules/luxon/build/cjs-browser/luxon.js",
+                   "node_modules/moment/min/moment.min.js",
+                   "node_modules/popper.js/dist/umd/popper.min.js",
+                   "node_modules/portal-vue/dist/*.js",
+                   "node_modules/select2/dist/js/select2.min.js",
+                   "node_modules/sprintf-js/dist/sprintf.min.js",
+                   "node_modules/svg4everybody/dist/svg4everybody.min.js",
+                   "node_modules/vue/dist/*"
                   ]
     }
 }
