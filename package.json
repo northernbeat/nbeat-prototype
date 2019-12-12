@@ -1,6 +1,6 @@
 {
     "name": "@northernbeat/prototype",
-    "version": "1.0.37",
+    "version": "1.0.38",
     "description": "Northern Beat web prototype framework",
     "main": "index.js",
     "repository": {
