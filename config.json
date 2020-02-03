@@ -5,6 +5,11 @@
         "debug": true
     },
 
+    "data": [
+        "src/data/rk-crm.json",
+        "src/data/rk-test.json"
+    ],
+
     "webserver": {
         "port": 10000,
         "reload": true,
