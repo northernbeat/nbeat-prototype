@@ -22,7 +22,7 @@
         "@northernbeat/html-templates": "^0.0.1",
         "@northernbeat/jquery-plugins": "^1.0.2",
         "@northernbeat/sass-lib": "^0.1.1",
-        "@vue/cli": "^4.1.2",
+        "@vue/cli": "^4.2.2",
         "bootstrap": "^4.4.1",
         "bootstrap-vue": "^2.4.0",
         "datatables": "^1.10.18",
