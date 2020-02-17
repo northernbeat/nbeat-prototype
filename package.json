@@ -10,7 +10,7 @@
     "publishConfig": {
         "registry": "https://registry.npmjs.org/",
         "access": "public"
-    }
+    },
     "author": {
         "name": "Northern Beat",
         "url": "http://www.northernbeat.no/"
