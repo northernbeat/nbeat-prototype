@@ -22,14 +22,14 @@
         }
     ],
     "dependencies": {
-        "@northernbeat/gulp-tasks": "^1.0.31",
+        "@northernbeat/gulp-tasks": "^1.0.32",
         "@northernbeat/html-templates": "^0.0.1",
         "@northernbeat/jquery-plugins": "^1.0.2",
         "@northernbeat/sass-lib": "^0.1.1",
-        "@popperjs/core": "^2.0.6",
-        "@vue/cli": "^4.2.2",
+        "@popperjs/core": "^2.1.0",
+        "@vue/cli": "^4.2.3",
         "bootstrap": "^4.4.1",
-        "bootstrap-vue": "^2.5.0",
+        "bootstrap-vue": "^2.6.1",
         "datatables": "^1.10.18",
         "deepmerge": "^4.2.2",
         "fancy-log": "^1.3.3",
