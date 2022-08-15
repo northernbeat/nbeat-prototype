@@ -1487,13 +1487,13 @@
     "@nodelib/fs.scandir" "2.1.5"
     fastq "^1.6.0"
 
-"@northernbeat/gulp-tasks@^1.0.48":
-  version "1.0.48"
-  resolved "https://registry.yarnpkg.com/@northernbeat/gulp-tasks/-/gulp-tasks-1.0.48.tgz#ac6cdbe1628704a4677e372bfc991c70f5e3abf7"
-  integrity sha512-CCRPJ5vGVo9xxwzPLq201Azg/9rJ7dqddor/j92tOjDrA7cgUHn+fBLShxJAanogxW6q+2YJNXBYyXYKdTtfsQ==
+"@northernbeat/gulp-tasks@^1.0.49":
+  version "1.0.49"
+  resolved "https://registry.yarnpkg.com/@northernbeat/gulp-tasks/-/gulp-tasks-1.0.49.tgz#f0af94e7170f7976b929f82db504a991578c7a71"
+  integrity sha512-SmFGc67Ebn5F8AHq7QgTpLtMf4s3U78aCOrTbSBDS3bXAmh7oQZuB0qCjStdI+L5o8NZ/8mI3D2lWOWBlOFqOw==
   dependencies:
     "@northernbeat/gulp-wpstylecss" "0.0.5"
-    chalk "^5.0.1"
+    chalk "^4.1.2"
     cors "^2.8.5"
     del "^7.0.0"
     event-stream "^4.0.1"
@@ -3265,11 +3265,6 @@ chalk@^4.0.0, chalk@^4.0.2, chalk@^4.1.0, chalk@^4.1.1, chalk@^4.1.2:
   dependencies:
     ansi-styles "^4.1.0"
     supports-color "^7.1.0"
-
-chalk@^5.0.1:
-  version "5.0.1"
-  resolved "https://registry.yarnpkg.com/chalk/-/chalk-5.0.1.tgz#ca57d71e82bb534a296df63bbacc4a1c22b2a4b6"
-  integrity sha512-Fo07WOYGqMfCWHOzSXOt2CxDbC6skS/jO9ynEcmpANMoPrD+W1r1K6Vx7iNm+AQmETU1Xr2t+n8nzkV9t6xh3w==
 
 char-regex@^1.0.2:
   version "1.0.2"
