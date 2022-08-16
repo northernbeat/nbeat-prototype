@@ -22,6 +22,7 @@
         }
     ],
     "dependencies": {
+        "@hotwired/stimulus": "^3.1.0",
         "@northernbeat/gulp-tasks": "^1.0.50",
         "@northernbeat/html-templates": "^0.0.1",
         "@northernbeat/jquery-plugins": "^1.0.2",
@@ -51,7 +52,6 @@
         "select2": "^4.0.13",
         "slick-carousel": "^1.8.1",
         "sprintf-js": "^1.1.2",
-        "stimulus": "^3.1.0",
         "svg4everybody": "^2.1.9",
         "vee-validate": "^4.6.5",
         "vue": "^3.2.37",
